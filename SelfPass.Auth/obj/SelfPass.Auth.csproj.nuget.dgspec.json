@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/alex/Documents/Github Projects/selfpass/SelfPass/SelfPass.Auth/SelfPass.Auth.csproj": {}
+    "/home/alex/Documents/Github Projects/selfpass/SelfPass.Auth/SelfPass.Auth.csproj": {}
   },
   "projects": {
-    "/home/alex/Documents/Github Projects/selfpass/SelfPass/SelfPass.Auth/SelfPass.Auth.csproj": {
+    "/home/alex/Documents/Github Projects/selfpass/SelfPass.Auth/SelfPass.Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alex/Documents/Github Projects/selfpass/SelfPass/SelfPass.Auth/SelfPass.Auth.csproj",
+        "projectUniqueName": "/home/alex/Documents/Github Projects/selfpass/SelfPass.Auth/SelfPass.Auth.csproj",
         "projectName": "SelfPass.Auth",
-        "projectPath": "/home/alex/Documents/Github Projects/selfpass/SelfPass/SelfPass.Auth/SelfPass.Auth.csproj",
+        "projectPath": "/home/alex/Documents/Github Projects/selfpass/SelfPass.Auth/SelfPass.Auth.csproj",
         "packagesPath": "/home/alex/.nuget/packages/",
-        "outputPath": "/home/alex/Documents/Github Projects/selfpass/SelfPass/SelfPass.Auth/obj/",
+        "outputPath": "/home/alex/Documents/Github Projects/selfpass/SelfPass.Auth/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alex/.nuget/NuGet/NuGet.Config"
