@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ylka+WoI8a7mmNx0vC8ctG5Yj8uvSueqXbpN62hCDTY=",
+  "Source": "SelfPass.Auth",
+  "BasePath": "_content/SelfPass.Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
