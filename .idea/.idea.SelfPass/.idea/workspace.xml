@@ -1,13 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7f43cdce-d99e-49c4-af5f-5ab14a842faa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelfPass/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelfPass/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelfPass/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelfPass/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelfPass/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelfPass/.idea/.idea.SelfPass/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfPass.Auth/Migrations/20230911185627_UsersTable.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfPass.Auth/Migrations/20230911185627_UsersTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfPass.Auth/Migrations/UserContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfPass.Auth/Models/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelfPass.Auth/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelfPass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelfPass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/SelfPass.Auth/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelfPass.Auth/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/SelfPass.Auth.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SelfPass.Auth/SelfPass.Auth.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SelfPass.Auth/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SelfPass.Auth/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/SelfPass.Auth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/SelfPass.Auth.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/SelfPass.Auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/SelfPass.Auth.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/SelfPass.Auth.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/bin/Debug/net6.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/SelfPass.Auth.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/ref/SelfPass.Auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/refint/SelfPass.Auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/SelfPass.Auth.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/SelfPass.Auth.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/SelfPass.Auth.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfPass.Auth/obj/staticwebassets.pack.sentinel" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +67,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aacc74311ca994f12b71cddb22241be9d6654c65e94f5985c5488dee396916f/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2VFpnznSRKLLrRkk0PRnkJQUirA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,12 +89,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.47272727",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -62,6 +119,7 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="RUNTIME_TYPE" value="coreclr" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -71,7 +129,7 @@
         <settings>
           <option name="imageTag" value="selfpass.auth" />
           <option name="containerName" value="selfpass.auth" />
-          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="contextFolderPath" value="." />
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
@@ -93,6 +151,10 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.SelfPass.Auth" />
+      <item itemvalue="Docker.SelfPass.Auth/Dockerfile" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,7 +164,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694441853177</updated>
-      <workItem from="1694441854525" duration="497000" />
+      <workItem from="1694441854525" duration="1497000" />
+      <workItem from="1694445800801" duration="5942000" />
+      <workItem from="1694451851993" duration="20437000" />
     </task>
     <servers />
   </component>
@@ -113,5 +177,13 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#Program.&lt;Main&gt;$" memberName="postgresConnection" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

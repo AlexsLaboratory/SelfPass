@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  auth:
+    build:
+      context: './SelfPass.Auth'
+      dockerfile: 'Dockerfile'
+    depends_on:
+      - auth_postgres
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:80"
+    deploy:
+      mode: replicated
+      replicas: 1
+  auth_postgres:
+    image: postgres:15.4
+    restart: always
+    ports:
+      - "5433:5432"
+    env_file:
+      - .env
+    volumes:
+      - auth_postgres_data:/var/lib/postgresql/data
+volumes:
+  auth_postgres_data:

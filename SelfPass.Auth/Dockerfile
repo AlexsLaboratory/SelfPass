@@ -5,10 +5,9 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["SelfPass.Auth/SelfPass.Auth.csproj", "SelfPass.Auth/"]
-RUN dotnet restore "SelfPass.Auth/SelfPass.Auth.csproj"
+COPY ["SelfPass.Auth.csproj", "./"]
+RUN dotnet restore "SelfPass.Auth.csproj"
 COPY . .
-WORKDIR "/src/SelfPass.Auth"
 RUN dotnet build "SelfPass.Auth.csproj" -c Release -o /app/build
 
 FROM build AS publish
